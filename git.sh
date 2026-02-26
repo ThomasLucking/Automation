@@ -8,7 +8,7 @@ do
     break
 done
 
-read -p "What will be your commit message" Message
+read -p "What will be your commit message: " Message
 
 # git commands
 branch=$(git branch --show-current)
